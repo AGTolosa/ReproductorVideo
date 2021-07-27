@@ -4,11 +4,13 @@ body {
 
 div{
 	background-color: #e0e0d1;
-	/*position: sticky;*/
+	border-radius: 40px;
 }
 
 h1{
 	background-color: #ccccb3;
+	padding-left: 10px;
+	border-radius: 45px;
 }
 
 li, p {
@@ -18,4 +20,16 @@ li, p {
 video{
 	display: block;
 	margin: 0 auto;
+	position: sticky;
+	top: 50px;
 }
+
+.sidenav {
+	position: absolute;
+	z-index: 1;
+	top: 70;
+	left: 10;
+	background-color: #ccccb3;
+	overflow-x: auto;
+	padding-right: 15px;
+  }
